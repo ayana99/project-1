@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 1% 5%;
+    ;
+}
+
+.logo {
+    width: 180px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    margin-right: 200px;
+    color: #blue;
+    transition: .6s;
+    font-size: 15px;
+}
+
+.links>a {
+    color: #333;
+    margin-right: 20px;
+    font-size: 13px;
+    transition: .33s;
+}
+
+.links>a:hover {
+    color: #1d89ff;
+}
+
+.button {
+    background-color: #fff;
+    border-color: #f3f3f3;
+    border-radius: 0%;
+    padding: 12px, 25px;
+    font-size: 14px;
+    transition: .33s;
+}
+
+.button:hover {
+    background-color: #1d89ff
+}
