@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
-    color:#fff;
+    color: #fff;
 }
 
 .carousel-slide {
@@ -18,12 +18,12 @@
     line-height: 1.5;
 }
 
-.home-content > h3 {
+.home-content>h3 {
     font-size: 60px;
     font-weight: bold;
 }
 
-.home-content > p {
+.home-content>p {
     margin: 30px auto;
     width: 70%;
     font-weight: bold;
@@ -32,4 +32,24 @@
 
 .home-content .btn-black {
     margin-right: 20px;
+}
+
+.home-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d89ff;
+}
+
+.section-top {
+    color: #fff;
+    font-size: 600px;
+    font-weight: bold;
+}
+
+.home-about-text>h4 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
 }
