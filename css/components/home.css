@@ -47,9 +47,11 @@
     font-weight: bold;
 }
 
-.home-about-text>h4 {
-    font-size: 28px;
+.home-about-text {
+    display: flex;
+    font-size: 24px;
     font-weight: 600;
+    line-height: 1.5;
     color: #fff;
     text-align: left;
 }

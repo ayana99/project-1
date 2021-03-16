@@ -1,0 +1,31 @@
+.portfolio-item {
+    width: calc(100% / 3 - 2%);
+    position: relative;
+    cursor: pointer;
+}
+
+.portfolio-item>img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2A97B8;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 0;
+    transition: .6s;
+}
+
+.portfolio-item:hover .portfolio-inner {
+    opacity: 1;
+}
