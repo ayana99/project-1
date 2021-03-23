@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
@@ -20,18 +21,25 @@
             </a>
         </div>
 
-        <div class="links">
-            <a href="#" class="active">HOME</a>
-            <a href="#">SERVICES</a>
-            <a href="#">ABOUT</a>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">TEAM</a>
-            <a href="#">NEWS</a>
-            <a href="#">CLIENTS</a>
-            <a href="#">CONTACTS</a>
+        <div class="nav">
+            <div class="links">
+                <a href="#" class="active">HOME</a>
+                <a href="#">SERVICES</a>
+                <a href="#">ABOUT</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">TEAM</a>
+                <a href="#">NEWS</a>
+                <a href="#">CLIENTS</a>
+                <a href="#">CONTACTS</a>
+            </div>
         </div>
 
+        <div class="mobile-bar fas fa-bars">
+
+        </div>
         <button class="btn">GET A QUOTE</button>
+
+
     </header>
 
     <section class="main-home">
@@ -51,8 +59,9 @@
     </section>
 
 
-    <div class="home-about wrap container section-padding">
-        <h4>WE ARE ALWAYS READY TO HELP YOU MAKE YOUR BUSINESS MORE PROFITABLE WITH OUR TAILRODER SOLUTIONS</h4>
+    <div class="wrap container section-padding consult">
+        <h4>WE ARE ALWAYS READY TO HELP YOU MAKE YOUR BUSINESS
+            <br>MORE PROFITABLE WITH OUR TAILRODER SOLUTIONS</h4>
 
         <a href="#" class="btn btn-white">CONTACT US</a>
 
@@ -63,22 +72,28 @@
 
         <div class="wrap">
 
-            <div class="services-item">
+            <div class="services-item template-item">
                 <img src="images/bg-images/services1.jpg" alt="ser-1">
-                <h5>BUSINESS PLANNING</h5>
-                <p>We can create an efficient and reliable business plan designed to fit your company’s sphere of activity and industry experience.</p>
+                <div class="services-info">
+                    <h5>BUSINESS PLANNING</h5>
+                    <p>We can create an efficient and reliable business plan designed to fit your company’s sphere of activity and industry experience.</p>
+                </div>
             </div>
 
-            <div class="services-item">
+            <div class="services-item template-item">
                 <img src="images/bg-images/services2.jpg" alt="ser-2">
-                <h5>EQUITY & VENTURE FUNDS</h5>
-                <p>Our professional team will be glad to provide you with advice on managing equity and venture capital funds.</p>
+                <div class="services-info">
+                    <h5>EQUITY & VENTURE FUNDS</h5>
+                    <p>Our professional team will be glad to provide you with advice on managing equity and venture capital funds.</p>
+                </div>
             </div>
 
-            <div class="services-item">
+            <div class="services-item template-item">
                 <img src="images/bg-images/services3.jpg" alt="ser-3">
-                <h5>STRATEGIC GROWTH</h5>
-                <p>Our company provides a customized approach to advising clients looking to grow through acquisition.</p>
+                <div class="services-info">
+                    <h5>STRATEGIC GROWTH</h5>
+                    <p>Our company provides a customized approach to advising clients looking to grow through acquisition.</p>
+                </div>
             </div>
 
         </div>
@@ -91,10 +106,8 @@
 
     <section class="about container section-padding">
 
-        <div class="about-text wrap">
-
+        <div class="about-text">
             <h4>ABOUT US</h4>
-            <hr>
             <p>SBG is a leading firm of business managers and advisors with offices across the USA. Our company was established in 1995. Throughout our history, we have assisted individuals, progressive businesses, and community organizations, with a particular
                 focus on the middle market.</p>
 
@@ -128,6 +141,7 @@
 
             <div class="about-img">
                 <img src="images/bg-images/about-blok-img.jpg" alt="abt-img">
+
                 <h6>WHO WE ARE</h6>
                 <p>We are a team of passionate web designers and developers bringing you the best website templates.</p>
             </div>
@@ -140,7 +154,6 @@
     <section class="portfolio container section-padding">
         <div class="section-top">
             <h4>OUR GALLERY</h4>
-            <hr>
         </div>
 
         <div class="wrap">
@@ -184,53 +197,237 @@
 
     </section>
 
-    <section>
-        <div class="team">
-            <div class="team-text">
-                <h4>OUR TEAM</h4>
-                <p>We are a team of professionals from different backgrounds who share knowledge and expertise in business consulting aiming to provide professional services and support to our clients to the highest standards.</p>
-            </div>
+    <section class="team container section-padding">
 
-            <div class="wrap">
-                <div class="team-img">
-                    <img src="images/widgets/team-img1.jpg" alt="team-img">
+        <div class="section-top">
+            <h4>OUR TEAM</h4>
+            <p>We are a team of professionals from different backgrounds who share knowledge and expertise in business consulting aiming to provide professional services and support to our clients to the highest standards.</p>
+        </div>
+
+        <div class="wrap">
+
+            <div class="team-item template-item">
+                <img src="images/bg-images/team-img1.jpg" alt="team-img">
+                <div class="team-info">
                     <h4>Brian King</h4>
                     <p>CEO, Founder</p>
                 </div>
 
-                <div class="team-img">
-                    <img src="images/widgets/team-img2.jpg" alt="team-img">
+            </div>
+
+            <div class="team-item template-item">
+                <img src="images/bg-images/team-img2.jpg" alt="team-img">
+                <div class="team-info">
                     <h4>Amanda Smith</h4>
                     <p>Finance Manager</p>
                 </div>
 
-                <div class="team-img">
-                    <img src="images/widgets/team-img3.jpg" alt="team-img">
+            </div>
+
+            <div class="team-item template-item">
+                <img src="images/bg-images/team-img3.jpg" alt="team-img">
+                <div class="team-info">
                     <h4>George Nelson</h4>
                     <p>Marketing Manager</p>
                 </div>
-
-            </div>
-
-
-        </div>
-    </section>
-
-
-    <section class="team-bottom">
-        <div class="team-bg">
-            <img src="images/bg-images/team-img4.jpg" alt="team-bg">
-        </div>
-
-        <div class="team-content">
-            <h3>MAKE YOUR BUSINESS PROSPER WITH OUR ADVISORY AND CONSULTING SERVICES!</h3>
-            <div class="btn-row">
-                <button class="btn btn-black">CONTACT US</button>
             </div>
 
         </div>
 
     </section>
+
+    <div class="team-block">
+        <h3>MAKE YOUR BUSINESS PROSPER WITH OUR ADVISORY AND CONSULTING SERVICES!</h3>
+        <a href="#" class="btn btn-white">CONTACT US</a>
+    </div>
+
+
+    <section class="news container section-padding">
+
+        <div class="section-top">
+            <h4>RECENT NEWS</h4>
+        </div>
+
+        <div class="wrap">
+
+            <div class="news-item template-item">
+                <img src="images/bg-images/news-img1.jpg" alt="news-img">
+                <div class="services-info">
+                    <h5>TOP 5 IDEAS FOR YOUR BUSINESS</h5>
+                    <p>In this article, we have gathered a few ideas that will surely help entrepreneurs succeed this year. Feel free to share your own suggestions and business ideas in the comments!</p>
+                </div>
+            </div>
+
+            <div class="news-item template-item">
+                <img src="images/bg-images/news-img2.jpg" alt="news-img">
+                <div class="services-info">
+                    <h5>WHY BUSINESS PLANNING IS IMPORTANT</h5>
+                    <p>A business plan is an important tool for managing and growing your business. A well-designed plan lays out a vision of growth and the steps needed to get there. A plan is also…</p>
+                </div>
+            </div>
+
+            <div class="news-item template-item">
+                <img src="images/bg-images/services1.jpg" alt="news-img">
+                <div class="services-info">
+                    <h5>ACHIEVING SMALL BUSINESS SUCCESS</h5>
+                    <p>To a small business owner, success could mean a double-digit growth rate, opening a second location, taking a vacation, or simply making payroll. There is no one single answer. Or is there?</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="clients container section-padding ">
+        <div class="section-top">
+            <h4>WHAT PEOPLE SAY</h4>
+        </div>
+
+        <div class="wrap">
+            <div class="template-item clients-item">
+                <img src="images/bg-images/clients1.png" alt="clients">
+            </div>
+
+            <div class="template-item clients-item">
+                <img src="images/bg-images/clients2.png" alt="clients">
+            </div>
+
+            <div class="template-item clients-item">
+                <img src="images/bg-images/clients3.png" alt="clients">
+            </div>
+
+            <div class="template-item clients-item">
+                <img src="images/bg-images/clients4.png" alt="clients">
+            </div>
+
+            <div class="template-item clients-item">
+                <img src="images/bg-images/clients5.png" alt="clients">
+            </div>
+
+            <div class="template-item clients-item">
+                <img src="images/bg-images/clients6.png" alt="clients">
+            </div>
+        </div>
+
+        <div class="clients-comment">
+
+
+        </div>
+
+
+
+
+    </section>
+
+    <div class="clients-block wrap">
+        <div class="template-item clients">
+            <i class="" alt="clients-block"></i>
+            <h4>100</h4>
+            <p>PROJECTS ANNUALLY</p>
+        </div>
+        <div class="template-item clients">
+            <i class="far fa-cube"></i>
+            <h4>45</h4>
+            <p>AWARDS</p>
+        </div>
+        <div class="template-item clients">
+            <i class="images/widgets/about1.svg"></i>
+            <h4>98%</h4>
+            <p>POSITIVE REVIEWS</p>
+        </div>
+        <div class="template-item clients">
+            <i class="images/widgets/about1.svg"></i>
+            <h4>147k</h4>
+            <p>HAPPY CUSTOMERS </p>
+        </div>
+
+
+
+    </div>
+
+    <section class="contacts section-padding container">
+
+
+        <div class="section-top">
+            <h4>CONTACT DETAILS</h4>
+        </div>
+
+        <div class="contact-info">
+            <h5>ADDRESS:</h5>
+            <p> 4578 Marmora Road, Glasgow, D04 89GR</p>
+            <h5>PHONES:</h5>
+            <p>(800) 123-0045 (800) 123-0045</p>
+            <h5>WE ARE OPEN:</h5>
+            <p>Mn-Fr: 10 am-8 pm</p>
+        </div>
+
+        <!-- <div class="section-top">
+            <h4>GET IN TOUCH</h4>
+            <div class="contact-info">
+                <p>Your name</p>
+                <p>Your e-mail</p>
+                <p>Your massage</p> -->
+
+        </div>
+        </div>
+
+
+    </section>
+
+    <footer class="main-footer container">
+        <div>
+            <a href="#">
+                <img src="images/widgets/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <div class="links">
+            <a href="#" class="active">HOME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">TEAM</a>
+            <a href="#">NEWS</a>
+            <a href="#">CLIENTS</a>
+            <a href="#">CONTACTS</a>
+        </div>
+
+
+        <!-- <div class="template-item footer-item">
+            <div class="wrap icons">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div> -->
+
+
+        <hr>
+
+        <div class="copyright">
+            SBG © 2021. Terms of Use and Privacy Policy Address 4578 Marmora Road, Glasgow, D04 89GR Phones (800) 123-0045 (800) 123-0045 E-mail info@demolink.org
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
 
 </body>
 

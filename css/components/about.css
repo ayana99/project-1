@@ -4,7 +4,7 @@
 
 .about-text>h4 {
     font-weight: 600;
-    font-size: 23px;
+    font-size: 28px;
     line-height: 3;
 }
 
@@ -15,7 +15,7 @@
 
 .about {
     column-count: 2;
-    background: #f8f9fa;
+    background-color: #f8f9fa;
 }
 
 .about-wrap {
@@ -25,16 +25,16 @@
 }
 
 .about-img>h6 {
-    line-height: 4;
+    line-height: 2;
     color: #333;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 28px;
     text-align: left;
 }
 
 .about-img>p {
     line-height: 1.8;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .about-item>h6 {
@@ -45,5 +45,5 @@
 
 .about-item>p {
     line-height: 1.5;
-    font-size: 15px;
+    font-size: 18px;
 }

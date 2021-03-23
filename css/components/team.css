@@ -1,4 +1,73 @@
-.team-img>h4 {
+.team-item {
+    width: calc(100% / 3 - 2%);
+    position: relative;
+}
+
+.team-item>img {
+    width: 100%;
+    height: 100%;
+}
+
+.team-info>h4 {
+    /* 
     font-weight: 400;
-    font-size: 14px;
+    line-height: 1.33;
+    text-align: center; */
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.team-info>p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.team-block {
+    background-image: url(https://livedemo00.template-help.com/wt_prod-18908/images/bg-image-8.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 120px 0;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.team-block::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+.team-block>h3 {
+    font-size: 50px;
+    padding: 0 25%;
+    color: #fff;
+    position: relative;
+    padding-bottom: 60px;
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+.team-block>h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: auto;
+    height: 1px;
+    width: 60px;
+    background-color: #1D89FF;
+    z-index: 1;
 }

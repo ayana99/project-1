@@ -55,3 +55,30 @@
     color: #fff;
     text-align: left;
 }
+
+.consult {
+    display: flex;
+    background-color: #1d89ff;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.consult>h4 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.consult>.btn {
+    background-color: #fff;
+}
+
+.consult>.btn:hover {
+    background-color: #000;
+    border-color: #000;
+}
